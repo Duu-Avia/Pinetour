@@ -1,0 +1,330 @@
+* {
+  font-family: "Montserrat";
+}
+.NAVIGATOR {
+  background-color: #101010;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.Khuvsgullake {
+  text-align: center;
+  font-weight: bold;
+  font-size: 71px;
+  color: #303030;
+  margin-bottom: 2px;
+  margin-top: 70px;
+}
+
+.FOUR-PICTURES {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.MAP {
+  margin-top: 170px;
+  left: 100px;
+}
+
+.TRIP {
+  text-align: center;
+  font-weight: bold;
+  color: #ababab;
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.DESTINATION-AGENCY {
+  font-size: 48px;
+  font-weight: bold;
+  color: #303030;
+}
+
+.CIRCLES {
+  background-color: #1d1f24;
+  color: #16a94a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  font-weight: bold;
+  border-radius: 40px;
+}
+
+.CIRCLE-TEXT-GAP {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 2px;
+  position: relative;
+  transition: 0.7s;
+  border: solid;
+  border-color: #f4f4f4;
+  cursor: pointer;
+}
+
+.CIRCLE-TEXT-GAP:hover {
+  border: solid;
+  border-color: #18ba51;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgb(7, 7, 7);
+  border-radius: 40px;
+}
+
+.CIRCLE-TEXT-GAP-BTM {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  border: solid;
+  border-color: #f4f4f4;
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+.CIRCLE-TEXT-GAP-BTM:hover {
+  border: solid;
+  border-color: #18ba51;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgb(7, 7, 7);
+  border-radius: 40px;
+}
+
+.map-2 {
+  position: absolute;
+  width: 694px;
+  height: 845px;
+  left: 490px;
+  top: -240px;
+  display: none;
+}
+
+.CIRCLE-TEXT-GAP:hover .map-2 {
+  display: block;
+}
+
+.map-3 {
+  position: absolute;
+  width: 694px;
+  height: 845px;
+  left: 505px;
+  top: -350px;
+  display: none;
+}
+.CIRCLE-TEXT-GAP:hover .map-3 {
+  display: block;
+}
+
+.map-4 {
+  position: absolute;
+  width: 694px;
+  height: 845px;
+  border-radius: 30px;
+  left: 505px;
+  top: -460px;
+  display: none;
+}
+.CIRCLE-TEXT-GAP:hover .map-4 {
+  display: block;
+}
+
+.map-5 {
+  position: absolute;
+  width: 694px;
+  height: 845px;
+  border-radius: 20px;
+  left: 505px;
+  top: -560px;
+  display: none;
+}
+
+.CIRCLE-TEXT-GAP:hover .map-5 {
+  display: block;
+}
+
+.map-6 {
+  position: absolute;
+  width: 694px;
+  height: 845px;
+  border-radius: 20px;
+  left: 505px;
+  top: -670px;
+  display: none;
+}
+
+.CIRCLE-TEXT-GAP:hover .map-6 {
+  display: block;
+}
+
+.map-7 {
+  position: absolute;
+  width: 694px;
+  height: 845px;
+  border-radius: 20px;
+  left: 505px;
+  top: -780px;
+  display: none;
+}
+
+.CIRCLE-TEXT-GAP-BTM:hover .map-7 {
+  display: block;
+}
+
+.DOTS {
+  border-left: dotted black 2px;
+  height: 50px;
+  margin-left: 25px;
+}
+
+.LISTS {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #777777;
+}
+
+.LISTS:hover {
+  font-weight: bold;
+}
+
+.LIST-BACKGROUND {
+  background-color: white;
+  width: 205px;
+  border-radius: 24px;
+  border: solid;
+  border-color: white;
+  border-radius: 24px;
+  padding: 40px;
+  height: 290px;
+  transition: 0.7s;
+}
+
+.LIST-BACKGROUND:hover {
+  border-color: #18ba51;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgb(7, 7, 7);
+  cursor: pointer;
+}
+
+.LIST-HEADER {
+  color: #303030;
+  margin: 0;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+.LIST-PRICE {
+  text-align: right;
+  color: #303030;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.CIRCLE-TOD-TEXT {
+  font-weight: bold;
+}
+
+.CIRCLE-SMALL-TEXT {
+  margin-top: 7px;
+  color: #777777;
+  font-size: 12px;
+}
+
+.PRICING-SMALLER-TEXT {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: #ababab;
+  margin-top: 220px;
+}
+
+.PRICING-OF {
+  color: #303030;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+.OUR-AGENCY {
+  color: #303030;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.BUTTON {
+  background-color: #18ba51;
+  width: 130px;
+  height: 44px;
+  margin-left: 63px;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  display: inline-block;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: montserrant;
+  transition: 0.5s;
+}
+
+.BUTTON:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #f4f4f4;
+}
+.FOOTER-1 {
+  background-color: #171717;
+  height: 393px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 220px;
+}
+.ARE-YOU-READY {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  height: 39px;
+  width: 261px;
+}
+.FOOTER-2 {
+  background-color: #101010;
+  height: 228px;
+  border-top: 1px solid;
+  border-color: #303030;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.FACEBOOK-INSTAGRAM {
+  background-color: #303030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  width: 167px;
+  height: 44px;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.FACEBOOK-INSTAGRAM:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #f4f4f4;
+}
